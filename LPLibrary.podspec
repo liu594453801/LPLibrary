@@ -11,27 +11,30 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.subspec 'Category' do |ss|
-    ss.source_files = 'LPLibrary/**/*.{h,m}'
-    ss.public_header_files = 'LPLibrary/**/*.h'
+    ss.dependency 'LPLibrary/Tool'
+    ss.source_files = 'LPLibrary/Category/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/Category/*.h'
     ss.frameworks = 'SystemConfiguration'
-  end
+    end
 
     s.subspec 'GTMBase64' do |ss|
-    ss.source_files = 'LPLibrary/**/*.{h,m}'
-    ss.public_header_files = 'LPLibrary/**/*.h'
+    ss.source_files = 'LPLibrary/GTMBase64/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/GTMBase64/*.h'
     ss.frameworks = 'SystemConfiguration'
-  end
+    end
 
     s.subspec 'Macro' do |ss|
-    ss.source_files = 'LPLibrary/**/*.{h,m}'
-    ss.public_header_files = 'LPLibrary/**/*.h'
+    ss.source_files = 'LPLibrary/Macro/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/Macro/*.h'
     ss.frameworks = 'SystemConfiguration'
-  end
+    end
 
     s.subspec 'Tool' do |ss|
-    ss.source_files = 'LPLibrary/**/*.{h,m}'
-    ss.public_header_files = 'LPLibrary/**/*.h'
+    ss.dependency 'LPLibrary/Category'
+    ss.dependency 'LPLibrary/Macro'
+    ss.source_files = 'LPLibrary/Tool/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/Tool/*.h'
     ss.frameworks = 'SystemConfiguration'
-  end
+    end
 
 end
