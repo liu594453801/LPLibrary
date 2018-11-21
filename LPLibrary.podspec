@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.subspec 'Category' do |ss|
-    ss.source_files = 'LPLibrary/NSDate+Tool.{h,m}','LPLibrary/NSDictionary+Tool.{h,m}','LPLibrary/NSString+Tool.{h,m}','LPLibrary/NSString+XPath.{h,m}','LPLibrary/UIBarButtonItem+Tool.{h,m}','LPLibrary/UIButton+Addition.{h,m}','LPLibrary/UIFont+CustomFont.{h,m}','LPLibrary/UIImage+Tool.{h,m}','LPLibrary/UILabel+Tool.{h,m}','LPLibrary/UITabBar+badge.{h,m}','LPLibrary/UIViewExt.{h,m}'
-    ss.public_header_files = 'LPLibrary/NSDate+Tool.h','LPLibrary/NSDictionary+Tool.h','LPLibrary/NSString+Tool.h','LPLibrary/NSString+XPath.h','LPLibrary/UIBarButtonItem+Tool.h','LPLibrary/UIButton+Addition.h','LPLibrary/UIFont+CustomFont.h','LPLibrary/UIImage+Tool.h','LPLibrary/UILabel+Tool.h','LPLibrary/UITabBar+badge.h','LPLibrary/UIViewExt.h'
+    ss.source_files = 'LPLibrary/**/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/**/*.h'
     ss.frameworks = 'SystemConfiguration'
   end
 
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   end
 
     s.subspec 'Tool' do |ss|
-    ss.source_files = 'LPLibrary/BCSLocationManager.{h,m}','LPLibrary/BCSQRCode.{h,m}','LPLibrary/DeviceTool.{h,m}','LPLibrary/JZLocationConverter.{h,m}','LPLibrary/KeyChainTool.{h,m}','LPLibrary/PublicClass.{h,m}'
-    ss.public_header_files = 'LPLibrary/BCSLocationManager.h','LPLibrary/BCSQRCode.h','LPLibrary/DeviceTool.h','LPLibrary/JZLocationConverter.h','LPLibrary/KeyChainTool.h','LPLibrary/PublicClass.h'
+    ss.source_files = 'LPLibrary/**/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/**/*.h'
     ss.frameworks = 'SystemConfiguration'
   end
 
