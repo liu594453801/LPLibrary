@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "LPLibrary"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "custom LPLibrary"
     s.homepage     = "https://github.com/liu594453801/LPLibrary"
     s.license      = { :type => "MIT", :file => "LICENSE" }
