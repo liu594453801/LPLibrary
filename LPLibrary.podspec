@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "liu594453801" => "594453801@qq.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/liu594453801/LPLibrary/LPLibrary", :tag => s.version }
+  s.source       = { :git => "https://github.com/liu594453801/LPLibrary", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
