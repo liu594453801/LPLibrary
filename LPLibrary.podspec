@@ -12,22 +12,22 @@ Pod::Spec.new do |s|
 
     s.subspec 'Category' do |ss|
     ss.source_files = 'LPLibrary/*.{h,m}'
-    ss.public_header_files = 'AFNetworking/*.h'
+    ss.public_header_files = 'LPLibrary/*.h'
   end
 
     s.subspec 'GTMBase64' do |ss|
-    ss.source_files = 'AFNetworking/*.{h,m}'
-    ss.public_header_files = 'AFNetworking/*.h'
+    ss.source_files = 'LPLibrary/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/*.h'
   end
 
     s.subspec 'Macro' do |ss|
-    ss.source_files = 'AFNetworking/*.{h,m}'
-    ss.public_header_files = 'AFNetworking/*.h'
+    ss.source_files = 'LPLibrary/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/*.h'
   end
 
     s.subspec 'Tool' do |ss|
-    ss.source_files = 'AFNetworking/*.{h,m}'
-    ss.public_header_files = 'AFNetworking/*.h'
+    ss.source_files = 'LPLibrary/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/*.h'
   end
 
 end
