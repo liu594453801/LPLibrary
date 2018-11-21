@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "LPLibrary"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "custom LPLibrary"
   s.description  = <<-DESC
 			iOS常用公共方法引用库
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "liu594453801" => "594453801@qq.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/liu594453801/LPLibrary", :tag => s.version }
+  s.source       = { :git => "https://github.com/liu594453801/LPLibrary.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LPLibrary", "LPLibrary/*.{h,m}"
+  s.source_files  = "LPLibrary", "LPLibrary/LPLibrary/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
