@@ -28,14 +28,6 @@
 		B750048021A4E71E00E6CD0F /* UIBarButtonItem+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750044921A4E71E00E6CD0F /* UIBarButtonItem+Tool.m */; };
 		B750048221A4E71E00E6CD0F /* UIImage+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750044B21A4E71E00E6CD0F /* UIImage+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750048321A4E71E00E6CD0F /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B750044C21A4E71E00E6CD0F /* UIButton+Addition.m */; };
-		B750048421A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = B750044E21A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.m */; };
-		B750048521A4E71E00E6CD0F /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = B750044F21A4E71E00E6CD0F /* UINavigationController+SXFullScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750048621A4E71E00E6CD0F /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = B750045021A4E71E00E6CD0F /* NSObject+SXRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750048721A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.h in Headers */ = {isa = PBXBuildFile; fileRef = B750045121A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750048821A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = B750045221A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750048921A4E71E00E6CD0F /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B750045321A4E71E00E6CD0F /* UINavigationController+SXFullScreen.m */; };
-		B750048A21A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = B750045421A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.m */; };
-		B750048B21A4E71E00E6CD0F /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = B750045521A4E71E00E6CD0F /* NSObject+SXRuntime.m */; };
 		B750048E21A4E71E00E6CD0F /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750045821A4E71E00E6CD0F /* NSString+Tool.m */; };
 		B750049121A4E71E00E6CD0F /* NSDate+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750045B21A4E71E00E6CD0F /* NSDate+Tool.m */; };
 		B750049221A4E71E00E6CD0F /* UITabBar+badge.h in Headers */ = {isa = PBXBuildFile; fileRef = B750045C21A4E71E00E6CD0F /* UITabBar+badge.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -93,14 +85,6 @@
 		B750044921A4E71E00E6CD0F /* UIBarButtonItem+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Tool.m"; sourceTree = "<group>"; };
 		B750044B21A4E71E00E6CD0F /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
 		B750044C21A4E71E00E6CD0F /* UIButton+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
-		B750044E21A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
-		B750044F21A4E71E00E6CD0F /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
-		B750045021A4E71E00E6CD0F /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
-		B750045121A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
-		B750045221A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
-		B750045321A4E71E00E6CD0F /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
-		B750045421A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
-		B750045521A4E71E00E6CD0F /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
 		B750045821A4E71E00E6CD0F /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
 		B750045B21A4E71E00E6CD0F /* NSDate+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Tool.m"; sourceTree = "<group>"; };
 		B750045C21A4E71E00E6CD0F /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
@@ -204,7 +188,6 @@
 		B750043E21A4E71E00E6CD0F /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				B750044D21A4E71E00E6CD0F /* NavigationBarButtonItem */,
 				B750047621A4E71E00E6CD0F /* NSDate+Tool.h */,
 				B750045B21A4E71E00E6CD0F /* NSDate+Tool.m */,
 				B750044421A4E71E00E6CD0F /* NSDictionary+Tool.h */,
@@ -229,21 +212,6 @@
 				B750046021A4E71E00E6CD0F /* UIViewExt.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		B750044D21A4E71E00E6CD0F /* NavigationBarButtonItem */ = {
-			isa = PBXGroup;
-			children = (
-				B750044E21A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.m */,
-				B750044F21A4E71E00E6CD0F /* UINavigationController+SXFullScreen.h */,
-				B750045021A4E71E00E6CD0F /* NSObject+SXRuntime.h */,
-				B750045121A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.h */,
-				B750045221A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.h */,
-				B750045321A4E71E00E6CD0F /* UINavigationController+SXFullScreen.m */,
-				B750045421A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.m */,
-				B750045521A4E71E00E6CD0F /* NSObject+SXRuntime.m */,
-			);
-			path = NavigationBarButtonItem;
 			sourceTree = "<group>";
 		};
 		B75004AD21A4E91500E6CD0F /* GTMBase64 */ = {
@@ -273,7 +241,6 @@
 			files = (
 				B750049321A4E71E00E6CD0F /* UILabel+Tool.h in Headers */,
 				B75004AC21A4E71E00E6CD0F /* NSDate+Tool.h in Headers */,
-				B750048521A4E71E00E6CD0F /* UINavigationController+SXFullScreen.h in Headers */,
 				B75004A821A4E71E00E6CD0F /* UIViewExt.h in Headers */,
 				B750047B21A4E71E00E6CD0F /* UIFont+CustomFont.h in Headers */,
 				B75004B221A4E91500E6CD0F /* GTMDefines.h in Headers */,
@@ -281,18 +248,15 @@
 				B750043121A4E66300E6CD0F /* DeviceTool.h in Headers */,
 				B750049221A4E71E00E6CD0F /* UITabBar+badge.h in Headers */,
 				B750048221A4E71E00E6CD0F /* UIImage+Tool.h in Headers */,
-				B750048721A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.h in Headers */,
 				B750049F21A4E71E00E6CD0F /* UIBarButtonItem+Tool.h in Headers */,
 				B750043821A4E66300E6CD0F /* JZLocationConverter.h in Headers */,
 				B75004BE21A4E97D00E6CD0F /* MacroDefine.h in Headers */,
-				B750048821A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.h in Headers */,
 				B750049C21A4E71E00E6CD0F /* UIButton+Addition.h in Headers */,
 				B75004A521A4E71E00E6CD0F /* NSString+Tool.h in Headers */,
 				B75004B121A4E91500E6CD0F /* GTMBase64.h in Headers */,
 				B750043321A4E66300E6CD0F /* KeyChainTool.h in Headers */,
 				B75004A021A4E71E00E6CD0F /* NSString+XPath.h in Headers */,
 				B750047C21A4E71E00E6CD0F /* NSDictionary+Tool.h in Headers */,
-				B750048621A4E71E00E6CD0F /* NSObject+SXRuntime.h in Headers */,
 				B750043B21A4E66300E6CD0F /* BCSQRCode.h in Headers */,
 				B750043C21A4E66300E6CD0F /* PublicClass.h in Headers */,
 				B750041821A4E2C900E6CD0F /* LPLibrary.h in Headers */,
@@ -402,7 +366,6 @@
 				B750049721A4E71E00E6CD0F /* UIFont+CustomFont.m in Sources */,
 				B75004AA21A4E71E00E6CD0F /* UILabel+Tool.m in Sources */,
 				B750047D21A4E71E00E6CD0F /* NSString+XPath.m in Sources */,
-				B750048B21A4E71E00E6CD0F /* NSObject+SXRuntime.m in Sources */,
 				B75004AB21A4E71E00E6CD0F /* UITabBar+badge.m in Sources */,
 				B750043D21A4E66300E6CD0F /* BCSLocationManager.m in Sources */,
 				B750043721A4E66300E6CD0F /* DeviceTool.m in Sources */,
@@ -410,12 +373,9 @@
 				B750048E21A4E71E00E6CD0F /* NSString+Tool.m in Sources */,
 				B750043021A4E66300E6CD0F /* JZLocationConverter.m in Sources */,
 				B750049621A4E71E00E6CD0F /* UIViewExt.m in Sources */,
-				B750048921A4E71E00E6CD0F /* UINavigationController+SXFullScreen.m in Sources */,
 				B750048321A4E71E00E6CD0F /* UIButton+Addition.m in Sources */,
 				B75004B321A4E91500E6CD0F /* GTMBase64.m in Sources */,
 				B75004A121A4E71E00E6CD0F /* NSDictionary+Tool.m in Sources */,
-				B750048421A4E71E00E6CD0F /* UINavigationItem+SXFixSpace.m in Sources */,
-				B750048A21A4E71E00E6CD0F /* UIBarButtonItem+SXCreate.m in Sources */,
 				B750043521A4E66300E6CD0F /* PublicClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
