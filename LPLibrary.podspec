@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
   end
 
     s.subspec 'GTMBase64' do |ss|
-    ss.source_files = 'LPLibrary/GTMBase64.{h,m}'
-    ss.public_header_files = 'LPLibrary/GTMBase64.h','LPLibrary/GTMDefines.h'
+    ss.source_files = 'LPLibrary/**/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/**/*.h'
     ss.frameworks = 'SystemConfiguration'
   end
 
     s.subspec 'Macro' do |ss|
-    ss.source_files = 'LPLibrary/MacroDefine.{h,m}'
-    ss.public_header_files = 'LPLibrary/MacroDefine.h'
+    ss.source_files = 'LPLibrary/**/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/**/*.h'
     ss.frameworks = 'SystemConfiguration'
   end
 
