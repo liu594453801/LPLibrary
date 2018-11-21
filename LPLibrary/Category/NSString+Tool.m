@@ -7,7 +7,7 @@
 //
 
 #import "NSString+Tool.h"
-#import "PublicClass.h"
+#import <LPLibrary/PublicClass.h>
 
 @implementation NSString (Tool)
 

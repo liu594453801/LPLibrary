@@ -7,9 +7,12 @@
 //
 
 #import "KeyChainTool.h"
-#import "PublicClass.h"
-#import "DeviceTool.h"
-#import "NSString+Tool.h"
+//#import "PublicClass.h"
+//#import "DeviceTool.h"
+//#import "NSString+Tool.h"
+#import <LPLibrary/PublicClass.h>
+#import <LPLibrary/DeviceTool.h>
+#import <LPLibrary/NSString+Tool.h>
 
 @implementation KeyChainTool
 

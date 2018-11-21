@@ -7,7 +7,7 @@
 //
 
 #import "PublicClass.h"
-#import "MacroDefine.h"
+#import <LPLibrary/MacroDefine.h>
 
 @implementation PublicClass
 
