@@ -10,9 +10,15 @@ Pod::Spec.new do |s|
     s.source_files = "LPLibrary/*.{h,m}"
     s.requires_arc = true
 
+    s.subspec 'Tool' do |ss|
+    ss.source_files = 'LPLibrary/**/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/**/*.h'
+    ss.frameworks = 'SystemConfiguration'
+    end
+
     s.subspec 'Category' do |ss|
-    ss.source_files = 'LPLibrary/Category/*.{h,m}'
-    ss.public_header_files = 'LPLibrary/Category/*.h'
+    ss.source_files = 'LPLibrary/**/*.{h,m}'
+    ss.public_header_files = 'LPLibrary/**/*.h'
     ss.frameworks = 'SystemConfiguration'
     end
 
@@ -25,12 +31,6 @@ Pod::Spec.new do |s|
     s.subspec 'Macro' do |ss|
     ss.source_files = 'LPLibrary/Macro/*.{h,m}'
     ss.public_header_files = 'LPLibrary/Macro/*.h'
-    ss.frameworks = 'SystemConfiguration'
-    end
-
-    s.subspec 'Tool' do |ss|
-    ss.source_files = 'LPLibrary/Tool/*.{h,m}'
-    ss.public_header_files = 'LPLibrary/Tool/*.h'
     ss.frameworks = 'SystemConfiguration'
     end
 

@@ -7,7 +7,7 @@
 //
 
 #import "NSString+Tool.h"
-#import <LPLibrary/PublicClass.h>
+//#import <LPLibrary/PublicClass.h>
 
 @implementation NSString (Tool)
 
@@ -90,7 +90,11 @@
 
 //手机号码隐藏中间4位
 +(NSString *)mobileHidenMiddle:(NSString*)mobileStr {
-    if ([PublicClass validateInputString:mobileStr limitMinLength:0 limitMaxLength:11 nType:4]) {//如果是手机号码的话
+    NSString *emailRegex = @"^(1[0-9])\\d{9}$";
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    BOOL isMobile = [emailTest evaluateWithObject:mobileStr];
+    
+    if (isMobile) {//如果是手机号码的话
         
         NSString *newMobileStr = [mobileStr stringByReplacingCharactersInRange:NSMakeRange(3, 4) withString:@"****"];
         
@@ -423,7 +427,7 @@
 
 //输入账号时处理每隔4位添加空格
 + (NSString *)inputAddSpaceWithStr:(NSString *)string {
-    if (![PublicClass CheckInputISNullBOOL:string]) {
+    if (![NSString CheckInputISNullBOOL:string]) {
         return @"";
     }
     NSString *newStr = [string stringByReplacingOccurrencesOfString:@" " withString:@""];
@@ -438,6 +442,67 @@
     return [mutableString stringByReplacingOccurrencesOfString:@"'" withString:@""];
 }
 
+#pragma mark 对钱数字符串进行每隔三个字符添加一逗号的处理
++(NSString *)stringAddCommaFromStr:(NSString *)numStr{
+    
+    //分割小数点左右字符串
+    NSArray *array = [numStr componentsSeparatedByString:@"."];
+    
+    NSString *leftNumStr = [NSString string];
+    NSString *rightNumStr = [NSString string];
+    if (array.count > 0) {
+        leftNumStr = array[0];
+        if (array.count == 2) {
+            rightNumStr = array[1];
+        }
+    }
+    if (![NSString CheckInputISNullBOOL:leftNumStr]) {
+        return numStr;
+    }
+    
+    NSString *numRegex = [NSString stringWithFormat:@"^\\d{%ld,%ld}$",(long)0,(long)10000];
+    NSPredicate *numTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", numRegex];
+    if (![numTest evaluateWithObject:leftNumStr]) {
+        return numStr;
+    }
+    
+    if ([NSString CheckInputISNullBOOL:rightNumStr]) {
+        if (rightNumStr.length == 1) {
+            rightNumStr = [rightNumStr stringByAppendingString:@"0"];
+        }
+    }else{
+        rightNumStr = @"00";
+    }
+    
+    //添加操作
+    int count = 0;
+    long long int a = leftNumStr.longLongValue;
+    while (a != 0)
+    {
+        count++;
+        a /= 10;
+    }
+    NSMutableString *string = [NSMutableString stringWithString:leftNumStr];
+    NSMutableString *newstring = [NSMutableString string];
+    while (count > 3) {
+        count -= 3;
+        NSRange rang = NSMakeRange(string.length - 3, 3);
+        NSString *str = [string substringWithRange:rang];
+        [newstring insertString:str atIndex:0];
+        [newstring insertString:@"," atIndex:0];
+        [string deleteCharactersInRange:rang];
+    }
+    [newstring insertString:string atIndex:0];
+    
+    //重新拼接小数点
+    NSString *returnStr = newstring;
+    if ([NSString CheckInputISNullBOOL:rightNumStr]) {
+        returnStr = [returnStr stringByAppendingString:[@"." stringByAppendingString:rightNumStr]];
+    }
+    
+    return returnStr;
+}
+
 /**
  货币处理
  ---增加千位符号(,)和2位小数点
@@ -449,7 +514,7 @@
     NSDecimalNumber *amount = [NSDecimalNumber decimalNumberWithString:[NSString getSafeStrWithStr:string showNull:@"0.00"]];
     //NSString *currencyStr = [NSString stringWithFormat:@"%.2f", [[NSString stringWithFormat:@"%@", amount] floatValue]];
     NSString *currencyStr = [NSString stringWithFormat:@"%@", amount];
-    return [PublicClass stringAddCommaFromStr:currencyStr];
+    return [NSString stringAddCommaFromStr:currencyStr];
 }
 
 /**

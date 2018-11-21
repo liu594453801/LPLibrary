@@ -49,6 +49,8 @@
 //账号每4位加空格
 + (NSString *)addspaceWithString:(NSString *)string;
 
+//对钱数字符串进行每隔三个字符添加一逗号的处理
++(NSString *)stringAddCommaFromStr:(NSString *)numStr;
 /**
  货币处理
  ---增加千位符号(,)和2位小数点
