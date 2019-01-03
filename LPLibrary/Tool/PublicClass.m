@@ -519,7 +519,7 @@
             break;
     }
     
-    NSTimeZone* timeZone = [NSTimeZone timeZoneWithName:@"Asia/Shanghai"];
+    NSTimeZone* timeZone = [NSTimeZone localTimeZone];
     [formatter setTimeZone:timeZone];
     
     NSString *stringFromDate = [formatter stringFromDate:date];

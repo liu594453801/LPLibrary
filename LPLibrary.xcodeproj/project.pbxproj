@@ -12,14 +12,10 @@
 		B750041821A4E2C900E6CD0F /* LPLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = B750040A21A4E2C900E6CD0F /* LPLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750043021A4E66300E6CD0F /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042221A4E66300E6CD0F /* JZLocationConverter.m */; };
 		B750043121A4E66300E6CD0F /* DeviceTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042321A4E66300E6CD0F /* DeviceTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750043321A4E66300E6CD0F /* KeyChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042521A4E66300E6CD0F /* KeyChainTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750043421A4E66300E6CD0F /* BCSLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042621A4E66300E6CD0F /* BCSLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750043521A4E66300E6CD0F /* PublicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042721A4E66300E6CD0F /* PublicClass.m */; };
-		B750043621A4E66300E6CD0F /* BCSQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042821A4E66300E6CD0F /* BCSQRCode.m */; };
 		B750043721A4E66300E6CD0F /* DeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042921A4E66300E6CD0F /* DeviceTool.m */; };
 		B750043821A4E66300E6CD0F /* JZLocationConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042A21A4E66300E6CD0F /* JZLocationConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750043A21A4E66300E6CD0F /* KeyChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042C21A4E66300E6CD0F /* KeyChainTool.m */; };
-		B750043B21A4E66300E6CD0F /* BCSQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042D21A4E66300E6CD0F /* BCSQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750043C21A4E66300E6CD0F /* PublicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042E21A4E66300E6CD0F /* PublicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750043D21A4E66300E6CD0F /* BCSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042F21A4E66300E6CD0F /* BCSLocationManager.m */; };
 		B750047B21A4E71E00E6CD0F /* UIFont+CustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B750044321A4E71E00E6CD0F /* UIFont+CustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,14 +65,10 @@
 		B750041721A4E2C900E6CD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B750042221A4E66300E6CD0F /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
 		B750042321A4E66300E6CD0F /* DeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTool.h; sourceTree = "<group>"; };
-		B750042521A4E66300E6CD0F /* KeyChainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainTool.h; sourceTree = "<group>"; };
 		B750042621A4E66300E6CD0F /* BCSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSLocationManager.h; sourceTree = "<group>"; };
 		B750042721A4E66300E6CD0F /* PublicClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicClass.m; sourceTree = "<group>"; };
-		B750042821A4E66300E6CD0F /* BCSQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSQRCode.m; sourceTree = "<group>"; };
 		B750042921A4E66300E6CD0F /* DeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTool.m; sourceTree = "<group>"; };
 		B750042A21A4E66300E6CD0F /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
-		B750042C21A4E66300E6CD0F /* KeyChainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainTool.m; sourceTree = "<group>"; };
-		B750042D21A4E66300E6CD0F /* BCSQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSQRCode.h; sourceTree = "<group>"; };
 		B750042E21A4E66300E6CD0F /* PublicClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicClass.h; sourceTree = "<group>"; };
 		B750042F21A4E66300E6CD0F /* BCSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSLocationManager.m; sourceTree = "<group>"; };
 		B750044321A4E71E00E6CD0F /* UIFont+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CustomFont.h"; sourceTree = "<group>"; };
@@ -171,14 +163,10 @@
 			children = (
 				B750042621A4E66300E6CD0F /* BCSLocationManager.h */,
 				B750042F21A4E66300E6CD0F /* BCSLocationManager.m */,
-				B750042D21A4E66300E6CD0F /* BCSQRCode.h */,
-				B750042821A4E66300E6CD0F /* BCSQRCode.m */,
 				B750042321A4E66300E6CD0F /* DeviceTool.h */,
 				B750042921A4E66300E6CD0F /* DeviceTool.m */,
 				B750042A21A4E66300E6CD0F /* JZLocationConverter.h */,
 				B750042221A4E66300E6CD0F /* JZLocationConverter.m */,
-				B750042521A4E66300E6CD0F /* KeyChainTool.h */,
-				B750042C21A4E66300E6CD0F /* KeyChainTool.m */,
 				B750042E21A4E66300E6CD0F /* PublicClass.h */,
 				B750042721A4E66300E6CD0F /* PublicClass.m */,
 			);
@@ -254,10 +242,8 @@
 				B750049C21A4E71E00E6CD0F /* UIButton+Addition.h in Headers */,
 				B75004A521A4E71E00E6CD0F /* NSString+Tool.h in Headers */,
 				B75004B121A4E91500E6CD0F /* GTMBase64.h in Headers */,
-				B750043321A4E66300E6CD0F /* KeyChainTool.h in Headers */,
 				B75004A021A4E71E00E6CD0F /* NSString+XPath.h in Headers */,
 				B750047C21A4E71E00E6CD0F /* NSDictionary+Tool.h in Headers */,
-				B750043B21A4E66300E6CD0F /* BCSQRCode.h in Headers */,
 				B750043C21A4E66300E6CD0F /* PublicClass.h in Headers */,
 				B750041821A4E2C900E6CD0F /* LPLibrary.h in Headers */,
 			);
@@ -360,8 +346,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B750049121A4E71E00E6CD0F /* NSDate+Tool.m in Sources */,
-				B750043A21A4E66300E6CD0F /* KeyChainTool.m in Sources */,
-				B750043621A4E66300E6CD0F /* BCSQRCode.m in Sources */,
 				B750048021A4E71E00E6CD0F /* UIBarButtonItem+Tool.m in Sources */,
 				B750049721A4E71E00E6CD0F /* UIFont+CustomFont.m in Sources */,
 				B75004AA21A4E71E00E6CD0F /* UILabel+Tool.m in Sources */,

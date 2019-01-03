@@ -9,6 +9,12 @@
 #ifndef MacroDefine_h
 #define MacroDefine_h
 
+//回调请求状态
+typedef NS_ENUM(int, CallBackStatus)
+{
+    CallBack_Failed = -1, //回调请求数据失败
+    CallBack_Success = 1, //回调请求数据成功
+};
 
 #pragma mark =========== 系统 ===========
 //当前系统语言
@@ -80,8 +86,6 @@
 #define IS_IPAD_PRO (IS_IPAD && SCREEN_MAX_LENGTH == 1366.0)
 
 //-------------------------系统------------------------
-
-
 #pragma mark =========== 打印日志 ===========
 //重写NSLog,Debug模式下打印日志和当前行数
 #if DEBUG
@@ -154,25 +158,6 @@
 
 //加载Nib
 #define loadNib (name) [[NSBundle mainBundle] loadNibNamed:name owner:nil options:nil].lastObject
-
-//用户token设置
-#define SetToken(string) [USER_DEFAULT setObject:string forKey:tokenKey]
-#define UserToken (NSString*)[USER_DEFAULT objectForKey:tokenKey]
-
-//用户云盾证书编码设置
-#define SetCloudCertNum(string) [USER_DEFAULT setObject:string forKey:cloudCertNumKey]
-#define CloudCertNum (NSString*)[USER_DEFAULT objectForKey:cloudCertNumKey]
-#define SetCertEncode(string, key) [USER_DEFAULT setObject:string forKey:key]
-#define CertEncode(key) [USER_DEFAULT objectForKey:key]
-
-//启动广告页路径存储
-#define SaveLaunchUrl(string) [USER_DEFAULT setObject:string forKey:launchAdUrlKey]
-#define LaunchUrl (NSString*)[USER_DEFAULT objectForKey:launchAdUrlKey]
-
-//弹出广告是否弹出过
-#define SaveIsShowAlertAdStatus(string) [USER_DEFAULT setObject:string forKey:isShowAlertAdKey]
-#define IsShowAlertAdStatus (NSString*)[USER_DEFAULT objectForKey:isShowAlertAdKey]
-
 
 //由角度获取弧度 有弧度获取角度
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
