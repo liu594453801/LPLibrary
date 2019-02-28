@@ -19,7 +19,6 @@
 		B750043C21A4E66300E6CD0F /* PublicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = B750042E21A4E66300E6CD0F /* PublicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750043D21A4E66300E6CD0F /* BCSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B750042F21A4E66300E6CD0F /* BCSLocationManager.m */; };
 		B750047B21A4E71E00E6CD0F /* UIFont+CustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B750044321A4E71E00E6CD0F /* UIFont+CustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B750047C21A4E71E00E6CD0F /* NSDictionary+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750044421A4E71E00E6CD0F /* NSDictionary+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B750047D21A4E71E00E6CD0F /* NSString+XPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B750044521A4E71E00E6CD0F /* NSString+XPath.m */; };
 		B750048021A4E71E00E6CD0F /* UIBarButtonItem+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750044921A4E71E00E6CD0F /* UIBarButtonItem+Tool.m */; };
 		B750048221A4E71E00E6CD0F /* UIImage+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750044B21A4E71E00E6CD0F /* UIImage+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,7 +33,6 @@
 		B750049E21A4E71E00E6CD0F /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750046821A4E71E00E6CD0F /* UIImage+Tool.m */; };
 		B750049F21A4E71E00E6CD0F /* UIBarButtonItem+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750046921A4E71E00E6CD0F /* UIBarButtonItem+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75004A021A4E71E00E6CD0F /* NSString+XPath.h in Headers */ = {isa = PBXBuildFile; fileRef = B750046A21A4E71E00E6CD0F /* NSString+XPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B75004A121A4E71E00E6CD0F /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750046B21A4E71E00E6CD0F /* NSDictionary+Tool.m */; };
 		B75004A521A4E71E00E6CD0F /* NSString+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B750046F21A4E71E00E6CD0F /* NSString+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75004A821A4E71E00E6CD0F /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B750047221A4E71E00E6CD0F /* UIViewExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75004AA21A4E71E00E6CD0F /* UILabel+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B750047421A4E71E00E6CD0F /* UILabel+Tool.m */; };
@@ -72,7 +70,6 @@
 		B750042E21A4E66300E6CD0F /* PublicClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicClass.h; sourceTree = "<group>"; };
 		B750042F21A4E66300E6CD0F /* BCSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSLocationManager.m; sourceTree = "<group>"; };
 		B750044321A4E71E00E6CD0F /* UIFont+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CustomFont.h"; sourceTree = "<group>"; };
-		B750044421A4E71E00E6CD0F /* NSDictionary+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tool.h"; sourceTree = "<group>"; };
 		B750044521A4E71E00E6CD0F /* NSString+XPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XPath.m"; sourceTree = "<group>"; };
 		B750044921A4E71E00E6CD0F /* UIBarButtonItem+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Tool.m"; sourceTree = "<group>"; };
 		B750044B21A4E71E00E6CD0F /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
@@ -87,7 +84,6 @@
 		B750046821A4E71E00E6CD0F /* UIImage+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
 		B750046921A4E71E00E6CD0F /* UIBarButtonItem+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Tool.h"; sourceTree = "<group>"; };
 		B750046A21A4E71E00E6CD0F /* NSString+XPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XPath.h"; sourceTree = "<group>"; };
-		B750046B21A4E71E00E6CD0F /* NSDictionary+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tool.m"; sourceTree = "<group>"; };
 		B750046F21A4E71E00E6CD0F /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
 		B750047221A4E71E00E6CD0F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		B750047421A4E71E00E6CD0F /* UILabel+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Tool.m"; sourceTree = "<group>"; };
@@ -178,8 +174,6 @@
 			children = (
 				B750047621A4E71E00E6CD0F /* NSDate+Tool.h */,
 				B750045B21A4E71E00E6CD0F /* NSDate+Tool.m */,
-				B750044421A4E71E00E6CD0F /* NSDictionary+Tool.h */,
-				B750046B21A4E71E00E6CD0F /* NSDictionary+Tool.m */,
 				B750046F21A4E71E00E6CD0F /* NSString+Tool.h */,
 				B750045821A4E71E00E6CD0F /* NSString+Tool.m */,
 				B750046A21A4E71E00E6CD0F /* NSString+XPath.h */,
@@ -243,7 +237,6 @@
 				B75004A521A4E71E00E6CD0F /* NSString+Tool.h in Headers */,
 				B75004B121A4E91500E6CD0F /* GTMBase64.h in Headers */,
 				B75004A021A4E71E00E6CD0F /* NSString+XPath.h in Headers */,
-				B750047C21A4E71E00E6CD0F /* NSDictionary+Tool.h in Headers */,
 				B750043C21A4E66300E6CD0F /* PublicClass.h in Headers */,
 				B750041821A4E2C900E6CD0F /* LPLibrary.h in Headers */,
 			);
@@ -359,7 +352,6 @@
 				B750049621A4E71E00E6CD0F /* UIViewExt.m in Sources */,
 				B750048321A4E71E00E6CD0F /* UIButton+Addition.m in Sources */,
 				B75004B321A4E91500E6CD0F /* GTMBase64.m in Sources */,
-				B75004A121A4E71E00E6CD0F /* NSDictionary+Tool.m in Sources */,
 				B750043521A4E66300E6CD0F /* PublicClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,7 +29,6 @@ FOUNDATION_EXPORT const unsigned char LPLibraryVersionString[];
 #import <LPLibrary/UIBarButtonItem+Tool.h>
 #import <LPLibrary/NSString+XPath.h>
 #import <LPLibrary/NSString+Tool.h>
-#import <LPLibrary/NSDictionary+Tool.h>
 #import <LPLibrary/NSDate+Tool.h>
 #import <LPLibrary/MacroDefine.h>
 
